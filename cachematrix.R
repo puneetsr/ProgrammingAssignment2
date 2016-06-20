@@ -4,9 +4,7 @@
 ## > source('cachematrix.R')
 ## > outputMatix <- makeCacheMatrix(matrix(c(2, 3, 1, 4, 3, 2,1,2,3),c(3,3)))
 ## > cacheSolve(outputMatix)
-## [,1] [,2]
-## [1,]  0.5  0.0
-## [2,]  0.0  0.5
+
 
 ## 1. makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 
